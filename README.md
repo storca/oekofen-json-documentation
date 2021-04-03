@@ -128,6 +128,12 @@ The target flow temperature ("Vorlauftemperatur") of the heating system for the 
 ### hk{$n}.L_statetext
 
 ### hk{$n}.mode_auto
+| Unit | Factor | Type | Range           |
+| ---- | ------ | ---- | --------------- |
+| N/A  | N/A    | int  | 0 to 3          |
+
+**Description**
+The heating mode of the heating system, 0 is disabled, 1 is auto, 2 is comfort, 3 is reduced
 
 ### hk{$n}.time_prg
 
